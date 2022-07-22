@@ -1,0 +1,5 @@
+function accum(s) {
+    // your code goes below
+    return [...s.toUpperCase()].reduce((acc, cur, index) => acc + "-" + cur + cur.toLowerCase().repeat(index))
+  }
+  
